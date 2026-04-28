@@ -79,8 +79,8 @@ track.addEventListener('touchend', e => {
 
 // ===== MUSIC PLAYER =====
 const playlist = [
-  { src: 'music/Hindia - Cincin _ Lirik Lagu.mp3', title: 'Hindia — Cincin' },
-  { src: 'music/Hindia - everything u are _ Lirik Lagu.mp3', title: 'Hindia — everything u are' }
+  { src: 'music/Hindia - everything u are _ Lirik Lagu.mp3', title: 'Hindia — everything u are' },
+  { src: 'music/Hindia - Cincin _ Lirik Lagu.mp3', title: 'Hindia — Cincin' }
 ];
 
 let currentTrack = 0;
