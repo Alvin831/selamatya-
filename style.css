@@ -163,19 +163,15 @@ body {
   text-align: center;
 }
 
-.quote-mark {
+.wish-card::before {
+  content: '\201C';
   font-family: 'Playfair Display', serif;
   font-size: 5rem;
   color: var(--rose);
-  line-height: 0;
+  opacity: 0.5;
+  line-height: 1;
   display: block;
-  margin-bottom: 1rem;
-  opacity: 0.6;
-}
-
-.quote-mark.closing {
-  margin-top: 1rem;
-  margin-bottom: 0;
+  margin-bottom: 0.5rem;
 }
 
 .wish-card p {
