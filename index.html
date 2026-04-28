@@ -14,6 +14,10 @@
 
   <!-- Hero Section -->
   <section class="hero">
+    <div class="hero-img-wrap">
+      <img src="assets/fotoawal.jpeg" alt="Foto Utama" class="hero-photo" />
+      <div class="hero-img-overlay"></div>
+    </div>
     <div class="hero-content">
       <p class="subtitle">✨ Sebuah perayaan untuk</p>
       <h1 class="name">Nama Kamu</h1>
@@ -42,30 +46,51 @@
     </div>
   </section>
 
-  <!-- Photos Section -->
+  <!-- Photos Slider Section -->
   <section class="photos" id="photos">
     <div class="container">
       <h2 class="section-title">Kenangan Kita</h2>
       <p class="section-sub">Setiap foto menyimpan cerita yang tak terlupakan</p>
-      <div class="photo-grid">
-        <div class="photo-item">
-          <img src="assets/foto1.jpeg" alt="Kenangan 1" />
-          <div class="photo-overlay"><p>Momen indah 🌸</p></div>
-        </div>
-        <div class="photo-item tall">
-          <img src="assets/foto2.jpeg" alt="Kenangan 2" />
-          <div class="photo-overlay"><p>Selalu bahagia ✨</p></div>
-        </div>
-        <div class="photo-item">
-          <img src="assets/foto3.jpeg" alt="Kenangan 3" />
-          <div class="photo-overlay"><p>Tertawa bersama 😄</p></div>
-        </div>
-        <div class="photo-item wide">
-          <img src="assets/foto4.jpeg" alt="Kenangan 4" />
-          <div class="photo-overlay"><p>Petualangan kita 🗺️</p></div>
-        </div>
-      </div>
     </div>
+
+    <div class="slider-wrapper">
+      <button class="slider-btn prev" id="prevSlide" aria-label="Sebelumnya">&#8249;</button>
+      <div class="slider-track" id="sliderTrack">
+        <div class="slide"><img src="assets/foto1.jpeg" alt="Kenangan 1" /></div>
+        <div class="slide"><img src="assets/foto2.jpeg" alt="Kenangan 2" /></div>
+        <div class="slide"><img src="assets/foto3.jpeg" alt="Kenangan 3" /></div>
+        <div class="slide"><img src="assets/foto4.jpeg" alt="Kenangan 4" /></div>
+        <div class="slide"><img src="assets/fotosilde7.jpeg" alt="Kenangan 5" /></div>
+        <div class="slide"><img src="assets/fotoslide2.jpeg" alt="Kenangan 6" /></div>
+        <div class="slide"><img src="assets/fotoslide3.jpeg" alt="Kenangan 7" /></div>
+        <div class="slide"><img src="assets/fotoslide4.jpeg" alt="Kenangan 8" /></div>
+        <div class="slide"><img src="assets/fotoslide5.jpeg" alt="Kenangan 9" /></div>
+        <div class="slide"><img src="assets/fotoslide6.jpeg" alt="Kenangan 10" /></div>
+        <div class="slide"><img src="assets/fotoslide8.jpeg" alt="Kenangan 11" /></div>
+        <div class="slide"><img src="assets/fotoslide9.jpeg" alt="Kenangan 12" /></div>
+        <div class="slide"><img src="assets/fotoslide10.jpeg" alt="Kenangan 13" /></div>
+        <div class="slide"><img src="assets/fotoslide11.jpeg" alt="Kenangan 14" /></div>
+        <div class="slide"><img src="assets/fotoslide12.jpeg" alt="Kenangan 15" /></div>
+        <div class="slide"><img src="assets/fotoslide13.jpeg" alt="Kenangan 16" /></div>
+        <div class="slide"><img src="assets/fotoslide14.jpeg" alt="Kenangan 17" /></div>
+        <div class="slide"><img src="assets/fotoslide15.jpeg" alt="Kenangan 18" /></div>
+        <div class="slide"><img src="assets/fotoslide17.jpeg" alt="Kenangan 19" /></div>
+        <div class="slide"><img src="assets/fotoslide18.jpeg" alt="Kenangan 20" /></div>
+        <div class="slide"><img src="assets/fotoslide19.jpeg" alt="Kenangan 21" /></div>
+        <div class="slide"><img src="assets/fotoslide21.jpeg" alt="Kenangan 22" /></div>
+        <div class="slide"><img src="assets/fotoslide22.jpeg" alt="Kenangan 23" /></div>
+        <div class="slide"><img src="assets/fotoslide23.jpeg" alt="Kenangan 24" /></div>
+        <div class="slide"><img src="assets/fotoslide24.jpeg" alt="Kenangan 25" /></div>
+        <div class="slide"><img src="assets/fotoslide25.jpeg" alt="Kenangan 26" /></div>
+        <div class="slide"><img src="assets/fotoslide26.jpeg" alt="Kenangan 27" /></div>
+        <div class="slide"><img src="assets/fotoslide27.jpeg" alt="Kenangan 28" /></div>
+        <div class="slide"><img src="assets/fotoslide28.jpeg" alt="Kenangan 29" /></div>
+        <div class="slide"><img src="assets/fotoslide29.jpeg" alt="Kenangan 30" /></div>
+        <div class="slide"><img src="assets/fotoslide30.jpeg" alt="Kenangan 31" /></div>
+      </div>
+      <button class="slider-btn next" id="nextSlide" aria-label="Berikutnya">&#8250;</button>
+    </div>
+    <div class="slider-dots" id="sliderDots"></div>
   </section>
 
   <!-- Video Section -->
@@ -89,6 +114,14 @@
             </video>
           </div>
           <p class="video-caption">Video Kenangan 2 🎥</p>
+        </div>
+        <div class="video-item">
+          <div class="video-wrapper">
+            <video controls preload="metadata">
+              <source src="assets/video3.mp4" type="video/mp4" />
+            </video>
+          </div>
+          <p class="video-caption">Video Kenangan 3 🎞️</p>
         </div>
       </div>
     </div>
