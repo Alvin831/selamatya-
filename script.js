@@ -52,7 +52,7 @@ const dots = dotsWrap.querySelectorAll('.dot');
 
 function goTo(index) {
   current = (index + total) % total;
-  slides[current].scrollIntoView({ behavior: 'smooth', block: 'nearest', inline: 'start' });
+  slides[current].scrollIntoView({ behavior: 'smooth', block: 'nearest', inline: 'center' });
   dots.forEach((d, i) => d.classList.toggle('active', i === current));
 }
 
