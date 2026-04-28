@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Happy Birthday 🎂</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Lato:wght@300;400&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- Floating particles -->
+  <div class="particles" id="particles"></div>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="hero-content">
+      <p class="subtitle">✨ Sebuah perayaan untuk</p>
+      <h1 class="name">Nama Kamu</h1>
+      <p class="date">28 April 2026</p>
+      <div class="divider"></div>
+      <p class="tagline">Semoga hari ini dan seterusnya selalu indah untukmu 🌸</p>
+      <a href="#wishes" class="btn-scroll">Lihat Kejutan ↓</a>
+    </div>
+  </section>
+
+  <!-- Wishes Section -->
+  <section class="wishes" id="wishes">
+    <div class="container">
+      <h2 class="section-title">Ucapan Untukmu</h2>
+      <div class="wish-card">
+        <span class="quote-mark">"</span>
+        <p>
+          Selamat ulang tahun, sayang. Terima kasih sudah hadir dan mewarnai
+          setiap hari dengan tawa dan kehangatan. Semoga tahun ini membawa
+          lebih banyak kebahagiaan, kesehatan, dan mimpi-mimpi yang jadi
+          kenyataan. Kamu layak mendapatkan semua hal terbaik di dunia ini. 🎉
+        </p>
+        <span class="quote-mark closing">"</span>
+        <p class="wish-from">— Dengan cinta, [Nama Pengirim]</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Photos Section -->
+  <section class="photos" id="photos">
+    <div class="container">
+      <h2 class="section-title">Kenangan Kita</h2>
+      <p class="section-sub">Setiap foto menyimpan cerita yang tak terlupakan</p>
+      <div class="photo-grid">
+        <div class="photo-item">
+          <img src="assets/foto1.jpeg" alt="Kenangan 1" />
+          <div class="photo-overlay"><p>Momen indah 🌸</p></div>
+        </div>
+        <div class="photo-item tall">
+          <img src="assets/foto2.jpeg" alt="Kenangan 2" />
+          <div class="photo-overlay"><p>Selalu bahagia ✨</p></div>
+        </div>
+        <div class="photo-item">
+          <img src="assets/foto3.jpeg" alt="Kenangan 3" />
+          <div class="photo-overlay"><p>Tertawa bersama 😄</p></div>
+        </div>
+        <div class="photo-item wide">
+          <img src="assets/foto4.jpeg" alt="Kenangan 4" />
+          <div class="photo-overlay"><p>Petualangan kita 🗺️</p></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Video Section -->
+  <section class="videos" id="videos">
+    <div class="container">
+      <h2 class="section-title">Video Kenangan</h2>
+      <p class="section-sub">Rekaman momen yang selalu bikin senyum</p>
+      <div class="video-grid">
+        <div class="video-item">
+          <div class="video-wrapper">
+            <video controls preload="metadata">
+              <source src="assets/video1.mp4" type="video/mp4" />
+            </video>
+          </div>
+          <p class="video-caption">Video Kenangan 1 🎬</p>
+        </div>
+        <div class="video-item">
+          <div class="video-wrapper">
+            <video controls preload="metadata">
+              <source src="assets/video2.mp4" type="video/mp4" />
+            </video>
+          </div>
+          <p class="video-caption">Video Kenangan 2 🎥</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Closing Section -->
+  <section class="closing">
+    <div class="container">
+      <div class="closing-card">
+        <p class="closing-emoji">🎂</p>
+        <h2>Happy Birthday!</h2>
+        <p>Semoga semua doamu terkabul dan hidupmu selalu dipenuhi cinta.</p>
+        <div class="hearts">
+          <span>💖</span><span>💕</span><span>💗</span><span>💓</span><span>💞</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Floating Music Player -->
+  <div class="music-player" id="musicPlayer">
+    <audio id="bgMusic" preload="auto"></audio>
+    <div class="music-controls">
+      <button class="music-btn-sm" id="prevBtn" aria-label="Lagu sebelumnya">&#9664;&#9664;</button>
+      <button class="music-btn-play" id="playBtn" aria-label="Play/Pause">
+        <span id="playIcon">▶</span>
+      </button>
+      <button class="music-btn-sm" id="nextBtn" aria-label="Lagu berikutnya">&#9654;&#9654;</button>
+    </div>
+    <div class="music-info">
+      <span class="music-vinyl">🎵</span>
+      <div class="music-text">
+        <span class="music-title" id="musicTitle">Hindia — Cincin</span>
+        <div class="music-bars" id="musicBars">
+          <span></span><span></span><span></span><span></span><span></span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
